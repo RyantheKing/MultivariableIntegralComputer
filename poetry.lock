@@ -1,0 +1,26 @@
+[[package]]
+category = "main"
+description = "Amazon Web Services Library"
+name = "boto"
+optional = false
+python-versions = "*"
+version = "2.49.0"
+
+[[package]]
+category = "main"
+description = "Backup ZFS snapshots to S3"
+name = "z3"
+optional = false
+python-versions = "*"
+version = "0.2.0"
+
+[package.dependencies]
+boto = "*"
+
+[metadata]
+content-hash = "6a0e484d82aef4160df96127a08ab445b2ed646f194b2f2d5c9abf22410054e0"
+python-versions = "^3.7"
+
+[metadata.hashes]
+boto = ["147758d41ae7240dc989f0039f27da8ca0d53734be0eb869ef16e3adcfa462e8", "ea0d3b40a2d852767be77ca343b58a9e3a4b00d9db440efb8da74b4e58025e5a"]
+z3 = ["34819e964d71e1474f933b34b9e65f0d021ccfc9d9edbbded54d54c1a9352b90"]
